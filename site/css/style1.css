@@ -1,0 +1,62 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid black;
+
+}
+
+h1 {
+  margin-bottom: 15px;
+
+}
+
+
+/* Simple Responsive Framework. */
+section .container {
+  width: 100%;
+  height: auto;
+  border-left: 200px solid #D4C37B;
+  border-right: 200px solid #D4C37B;
+  border-top: 200px solid #D4C37B;
+  border-bottom: 200px solid #D4C37B;
+  border-width: 2px 0 0 2px;
+
+}
+
+
+// Small devices (landscape phones, 544px and up)
+
+@media (min-width: 544px) { 
+	width: 30%
+	float:left;
+ }
+
+// Medium devices (tablets, 768px and up)
+
+@media (min-width: 768px) { 
+	width: 50%
+	float:left;
+}
+
+// Large devices (desktops, 992px and up)
+
+@media (min-width: 992px) { 
+	width: 90%
+	float:left;
+ }
+
+
+// Extra large devices (large desktops, 1200px and up)
+
+@media (min-width: 1200px) { 
+	width: 100%;
+	float:left;
+ }
+
+
+
+
